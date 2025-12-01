@@ -41,7 +41,8 @@ def main():
         type=int,
         nargs="+",
         default=None,
-        help="Number of variants to consider for intersection",
+        help="Number of variants to consider for intersection. If not provided, all "
+        "available will be considered.",
     )
 
     args = parser.parse_args()
